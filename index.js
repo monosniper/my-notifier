@@ -9,6 +9,7 @@ const notifications = [
         text: "Wake up",
         rule: (rule) => {
             rule.hour = 9
+            rule.minute = 0;
 
             return rule;
         },
@@ -18,6 +19,7 @@ const notifications = [
         text: "Sleep",
         rule: (rule) => {
             rule.hour = 23
+            rule.minute = 0;
 
             return rule;
         },
@@ -27,6 +29,7 @@ const notifications = [
         text: "Start",
         rule: (rule) => {
             rule.hour = 12
+            rule.minute = 0;
 
             return rule;
         },
@@ -36,6 +39,7 @@ const notifications = [
         text: "Finish",
         rule: (rule) => {
             rule.hour = 15
+            rule.minute = 0;
 
             return rule;
         },
@@ -45,6 +49,7 @@ const notifications = [
         text: "Drink water",
         rule: (rule) => {
             rule.hour = [9, 11, 13, 15, 17, 19, 21]
+            rule.minute = 0;
 
             return rule;
         },
@@ -54,6 +59,7 @@ const notifications = [
         text: "Take a shower",
         rule: (rule) => {
             rule.hour = 9
+            rule.minute = 0;
 
             return rule;
         },
@@ -63,6 +69,7 @@ const notifications = [
         text: "Take a shower",
         rule: (rule) => {
             rule.hour = 22
+            rule.minute = 0;
 
             return rule;
         },
@@ -72,6 +79,7 @@ const notifications = [
         text: "Have breakfast",
         rule: (rule) => {
             rule.hour = 10
+            rule.minute = 0;
 
             return rule;
         },
@@ -81,6 +89,7 @@ const notifications = [
         text: "Have lunch",
         rule: (rule) => {
             rule.hour = 14
+            rule.minute = 0;
 
             return rule;
         },
@@ -90,6 +99,7 @@ const notifications = [
         text: "Have dinner",
         rule: (rule) => {
             rule.hour = 18
+            rule.minute = 0;
 
             return rule;
         },
@@ -99,6 +109,7 @@ const notifications = [
         text: "Have a snack",
         rule: (rule) => {
             rule.hour = 21
+            rule.minute = 0;
 
             return rule;
         },
